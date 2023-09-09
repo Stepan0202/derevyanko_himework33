@@ -1,0 +1,29 @@
+.smilesContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3px;
+    margin-bottom: 20px;;
+}
+.smile{
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 46%;
+    width: 1000px;
+    font-size: 2rem;
+    border: 4px solid rgba(28, 156, 161, 0.459);
+    background-color: rgba(28, 156, 161, 0.562);
+    border-radius: 20px;
+    padding: 15px;
+}
+.smile__img{
+    font-size: 4rem;
+}
+.smile__btnBlock{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.btn{
+    font-size: 2rem;
+}
